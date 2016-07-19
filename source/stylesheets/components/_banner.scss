@@ -2,7 +2,6 @@
   color: white;
   text-align: center;
   height: 100vh;
-  /* if you have a 70px navbar => height: calc(100vh - 70px); */ 
   background-size: cover !important;
   display: flex;
   align-items: center;
@@ -15,7 +14,6 @@
   padding-bottom: 20px;
   border-bottom: 1px solid #FFFFFF;
   border-bottom-color: rgba(255,255,255,0.35);
-
 }
 .banner p {
   font-size: 28px;
@@ -28,6 +26,3 @@
   width: 495px;
   padding-bottom: 130px;
 }
-
-// gradient(-225deg, rgba(117, 185, 229, 0.52) 0%, rgba(4, 37, 60, 0.6) 50%)
-// linear-gradient(-225deg, rgba(155, 210, 246, 0.64) 0%, rgba(0,36,61,0.6) 50%), url('images/banner.png')
