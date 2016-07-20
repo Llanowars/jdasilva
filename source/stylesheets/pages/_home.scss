@@ -1,5 +1,5 @@
 h2 {
-  font-size: 55px;
+  font-size: 53px;
   text-align: center;
   letter-spacing: 0.04em;
   font-weight: 300;
@@ -14,11 +14,21 @@ hr {
   border-color: #727878;
   opacity: 0.2;
 }
+#italic {
+  font-style: italic;
+  font-weight: lighter;
+  color: #999999;
+  margin-top: 50px;
+}
 .centered-sentences p {
   text-align: center;
-  font-size: 21px;
+  color: #727878;
+  font-size: 20px;
   font-weight: lighter;
 }
 .wrapper-grey {
-  background-color: rgba(50,50,50,0.05);
+  background-color: rgba(50,50,50,0.04);
+}
+.fa-star{
+  color: #22A39F;
 }

@@ -7,3 +7,19 @@ span {
   text-align: left;
   color: #434242;
 }
+li {
+  padding: 3px 0px;
+}
+li:hover {
+  background-color: #e6e6e6;
+  transition: all 0.3s ease 0s;
+}
+.fa-star {
+  float: right;
+}
+.category-name {
+  padding-bottom: 15px;
+}
+.project-referal {
+  text-align: center;
+}
