@@ -1,4 +1,3 @@
-## Démarrer un nouveau projet.
+## My profile page.
 
-1. Forkez le repo
-1. Renommez-le puis clonez-le sur votre ordinateur
+You will find here my profile page with some informations about me and what I do
