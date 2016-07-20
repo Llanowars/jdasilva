@@ -12,10 +12,11 @@ li {
 }
 li:hover {
   background-color: #e6e6e6;
-  transition: all 0.3s ease 0s;
+  // transition: all 0.3s ease 0s;
 }
 .fa-star {
   float: right;
+  line-height: inherit;
 }
 .category-name {
   padding-bottom: 15px;

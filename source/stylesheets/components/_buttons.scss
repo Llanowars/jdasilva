@@ -1,0 +1,16 @@
+.btn-transparent-green {
+  margin-top: 10px;
+  padding: 6px 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #22A39F;
+  font-size: 16px;
+  border: 1px solid #22A39F;
+  text-decoration: none;
+}
+.btn-transparent-green:hover {
+  color: #22A39F;
+  text-decoration: none;
+  background-color: rgba(71,214,182,0.09);
+  transition: all 0.3s ease 0s;
+}
