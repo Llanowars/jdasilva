@@ -1,17 +1,14 @@
+#centered-profile-sentence {
+	text-align: center;
+	font-size: 21px;
+}
 .card-profile {
-	max-width: 1290px;
-  padding: 40px 180px;
+  padding: 40px 130px;
 }
 .card-profile h2 {
 	font-size: 55px;
   text-align: center;
   letter-spacing: 0.04em;
-}
-.card-profile p {
-	text-align: center;
-	font-weight: lighter;
-	font-size: 21px;
-	color: rgba(114, 120, 120, 0.8);
 }
 .card-profile h2, h3 {
   font-weight: 300;
@@ -22,6 +19,12 @@
   border-color: #727878;
   opacity: 0.2;
 }
-#description p {
+.card-profile p {
+	font-weight: lighter;
 	font-size: 15px;
+	text-align: left;
+	color: #434242;
+}
+.details p {
+	line-height: 0.9;
 }
