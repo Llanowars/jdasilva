@@ -1,0 +1,26 @@
+.navbar {
+  width: 100px;
+  float: right;
+  position: fixed;
+  right: 10vh;
+  top: 6vh;
+  z-index: 10;
+}
+.navbar li {
+  background-color: black;
+  height: 70px;
+  transition: 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar li:hover {
+  background-color: #22A39F;
+  color: white;
+}
+.navbar a {
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+}
