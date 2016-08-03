@@ -9,18 +9,29 @@
 .navbar li {
   background-color: black;
   height: 70px;
-  transition: 0.3s ease;
+  position: relative;
+}
+.navbar a {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.navbar li:hover {
-  background-color: #22A39F;
-  color: white;
-}
-.navbar a {
   color: white;
   font-weight: 600;
   font-size: 15px;
   text-decoration: none;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  transition: 0.2s ease;
+}
+.navbar a:hover {
+  color: rgba(255,255,255,0.7);
+}
+.active-nav {
+  background-color: #22A39F;
+  &:hover {
+    color: white!important;
+  }
 }
