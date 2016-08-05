@@ -63,20 +63,16 @@ $(document).ready(function() {
   //   });
   // });
   
-  function onScroll(event){
-      var scrollPos = $(document).scrollTop();
-      $('.navbar a').each(function () {
-          var currLink = $(this);
-          var refElement = $(currLink.attr("href"));
-          if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-              $('.navbar ul li a').removeClass("active-nav");
-              currLink.addClass("active-nav");
-          }
-          else{
-              currLink.removeClass("active-nav");
-          }
-      });
-    }
+  $(window).scroll(function() {
 
+    if ($(this).scrollTop() >= $('.card-profile').offset().top) {
+      $('.navbar a').removeClass('active-nav');
+      $('.navbar a:eq(0)').addClass('active-nav');
+    }
+    if ($(this).scrollTop() >= $('.abilities').offset().top) {
+      $('navbar a').removeClass('active-nav');
+      $('navbar a:eq(1)').addClass('active-nav');
+    }
+  });
 
 });
