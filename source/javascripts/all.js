@@ -66,12 +66,12 @@ $(document).ready(function() {
   $(window).scroll(function() {
 
     if ($(this).scrollTop() >= $('.card-profile').offset().top) {
-      $('.navbar a').removeClass('active-nav');
-      $('.navbar a:eq(0)').addClass('active-nav');
+      $('.navbar li a').removeClass('active-nav');
+      $('.navbar li a:eq(0)').addClass('active-nav');
     }
     if ($(this).scrollTop() >= $('.abilities').offset().top) {
-      $('navbar a').removeClass('active-nav');
-      $('navbar a:eq(1)').addClass('active-nav');
+      $('.navbar a').removeClass('active-nav');
+      $('.navbar a:eq(1)').addClass('active-nav');
     }
   });
 
