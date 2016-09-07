@@ -6,20 +6,21 @@
 
 // Paddings
 .padded {
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding: 40px 120px;
 }
-
-// Backgrounds
-.bg-text {
-  background: #4a4a4a;
+@media (max-width: 768px) {
+  .padded {
+    padding: 0px;
+  }
 }
-.bg-email {
-  background: #aeaeae;
+// Flex
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.bg-twitter {
-  background: #00a3e1;
-}
-.bg-facebook {
-  background: #3b5998;
+.space-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
