@@ -1,6 +1,6 @@
 .banner {
   color: white;
-  height: 100vh;
+  height: 75vh;
   background-size: cover !important;
   text-align: center;
   display: flex;
@@ -30,10 +30,10 @@
   position: relative;
 }
 .glyphicon-chevron-down {
-  color: #22A39F;
+  color: #42F2F7;
   font-size: 30px;
   text-align: center;
   position: absolute;
-  top: 60vh;
-  @include animation(bounce 2s infinite);
+  top: 40vh;
+  // @include animation(bounce 2s infinite);
 }
