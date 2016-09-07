@@ -6,8 +6,23 @@
 
 // Paddings
 .padded {
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding: 40px 120px;
+}
+@media (max-width: 768px) {
+  .padded {
+    padding: 0px;
+  }
+}
+// Flex
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.space-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 // Backgrounds
