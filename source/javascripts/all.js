@@ -34,38 +34,18 @@ $(document).ready(function() {
        }
    });
 
-  // navbar addClass/removeClass active 
+  // navbar addClass/removeClass on click
   $(function() {
       $('.navbar li a').click(function() {
          $('.navbar li a').removeClass();
          $(this).addClass('active-nav');
       });
    });
-
-  //Activate state off links in navbar
-  // var sections = $('.section')
-  // , nav = $('navbar');
-
-  // $(window).on('scroll', function () {
-  //   var cur_pos = $(this).scrollTop();
-    
-  //   sections.each(function() {
-  //     var top = $(this).offset().top,
-  //         bottom = top + $(this).outerHeight();
-      
-  //     if (cur_pos >= top && cur_pos <= bottom) {
-  //       nav.find('a').removeClass('active-nav');
-  //       sections.removeClass('active-nav');
-        
-  //       $(this).addClass('active-nav');
-  //       nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active-nav');
-  //     }
-  //   });
-  // });
   
+  // navbar addClass/removeClass on scroll
   $(window).scroll(function() {
 
-    if ($(this).scrollTop() >= $('.card-profile').offset().top) {
+    if ($(this).scrollTop() >= $('.profile').offset().top) {
       $('.navbar li a').removeClass('active-nav');
       $('.navbar li a:eq(0)').addClass('active-nav');
     }
