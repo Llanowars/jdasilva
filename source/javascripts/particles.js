@@ -2,7 +2,7 @@ $(document).ready(function() {
   var options = {
   "particles": {
     "number": {
-      "value": 150,
+      "value": 80,
       "density": {
         "enable": true,
         "value_area": 800
@@ -27,7 +27,7 @@ $(document).ready(function() {
       }
     },
     "opacity": {
-      "value": 0.9,
+      "value": 0.8,
       "random": true,
       "anim": {
         "enable": true,
