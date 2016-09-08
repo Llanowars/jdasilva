@@ -3,57 +3,128 @@
 		<div class="abilities padded" id="2">
 			<div class="centered-sentences">
 				<h2>Abilities</h2>
-				<p>“I love learning things”</p>
+				<p>“I work for emproving this belt”</p>
 					<hr>
 			</div>
 			<div class="skills">
-				<h3 class="category-name">Skills</h3>
+				<h3 class="category-name">Front End</h3>
 				<div class="row">
 					<div class="col-md-5">
 						<ul class="list-unstyled">
 							<li>
 								<span class="ability-title">HTML</span>
+								<%= content_tag("span","",class:"fa fa-star") * 4 %> 
+							</li>
+							<li>
+								<span class="ability-title">SCSS</span>
+								<%= content_tag("span","",class:"fa fa-star") * 4 %> 
+							</li>
+							<li>
+								<span class="ability-title">JQuery</span>
 								<%= content_tag("span","",class:"fa fa-star") * 3 %> 
 							</li>
 							<li>
-								<span class="ability-title">HTML</span>
-								<%= content_tag("span","",class:"fa fa-star") * 3 %> 
-							</li>
-							<li>
-								<span class="ability-title">HTML</span>
-								<%= content_tag("span","",class:"fa fa-star") * 3 %> 
-							</li>
-							<li>
-								<span class="ability-title">HTML</span>
-								<%= content_tag("span","",class:"fa fa-star") * 3 %> 
+								<span class="ability-title">Bootstrap</span>
+								<%= content_tag("span","",class:"fa fa-star") * 4 %> 
 							</li>
 						</ul>
 					</div>
 					<div class="col-md-5 col-md-offset-2">
 						<ul class="list-unstyled">
 							<li>
-								<span class="ability-title">HTML</span>
+								<span class="ability-title">Flexbox</span>
+								<%= content_tag("span","",class:"fa fa-star") * 4 %> 
+							</li>
+							<li>
+								<span class="ability-title">Responsive Design</span>
 								<%= content_tag("span","",class:"fa fa-star") * 3 %> 
 							</li>
 							<li>
-								<span class="ability-title">HTML</span>
-								<%= content_tag("span","",class:"fa fa-star") * 3 %> 
+								<span class="ability-title">React.js</span>
+								<%= content_tag("span","",class:"fa fa-star") * 1 %> 
 							</li>
 							<li>
-								<span class="ability-title">HTML</span>
-								<%= content_tag("span","",class:"fa fa-star") * 3 %> 
-							</li>
-							<li>
-								<span class="ability-title">HTML</span>
-								<%= content_tag("span","",class:"fa fa-star") * 3 %> 
+								<span class="ability-title">Redux</span>
+								<%= content_tag("span","",class:"fa fa-star") * 1 %> 
 							</li>
 						</ul>
 					</div>
 				</div>
+				<h3 class="category-name">Back End</h3>
+					<div class="row">
+						<div class="col-md-5">
+							<ul class="list-unstyled">
+								<li>
+									<span class="ability-title">Ruby</span>
+									<%= content_tag("span","",class:"fa fa-star") * 4 %> 
+								</li>
+								<li>
+									<span class="ability-title">Ruby on Rails</span>
+									<%= content_tag("span","",class:"fa fa-star") * 3 %> 
+								</li>
+								<li>
+									<span class="ability-title">Heroku</span>
+									<%= content_tag("span","",class:"fa fa-star") * 3 %> 
+								</li>
+								<li>
+									<span class="ability-title">Linux</span>
+									<%= content_tag("span","",class:"fa fa-star") * 3 %> 
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-5 col-md-offset-2">
+							<ul class="list-unstyled">
+							<li>
+								<span class="ability-title">Postgre SQL</span>
+								<%= content_tag("span","",class:"fa fa-star") * 4 %> 
+							</li>
+							<li>
+								<span class="ability-title">Google Map API</span>
+								<%= content_tag("span","",class:"fa fa-star") * 3 %> 
+							</li>
+							<li>
+								<span class="ability-title">Stripe API</span>
+								<%= content_tag("span","",class:"fa fa-star") * 3 %> 
+							</li>
+							<li>
+								<span class="ability-title">Tyeform API</span>
+								<%= content_tag("span","",class:"fa fa-star") * 3 %> 
+							</li>
+							</ul>
+						</div>
+					</div>
 				<div class="row">
 					<div class="project-referal">
 						<p id="italic">This project is build on a custom made Middleman framework.</p>
 						<%= link_to("See project on github", "https://github.com/Llanowars/jdasilva", class:"btn-transparent-green")	%>
+					</div>
+				</div>
+				<hr>
+				<h3 class="category-name">Tools</h3>
+				<div class="row">
+					<div class="col-md-5">
+						<ul class="list-unstyled">
+							<li>
+								<span class="ability-title">Sublime text</span>
+								<%= content_tag("span","",class:"fa fa-star") * 5 %> 
+							</li>
+							<li>
+								<span class="ability-title">Github</span>
+								<%= content_tag("span","",class:"fa fa-star") * 5 %> 
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-5 col-md-offset-2">
+						<ul class="list-unstyled">
+							<li>
+								<span class="ability-title">Ticketing systems</span>
+								<%= content_tag("span","",class:"fa fa-star") * 4 %> 
+							</li>
+							<li>
+								<span class="ability-title">Trello</span>
+								<%= content_tag("span","",class:"fa fa-star") * 3 %> 
+							</li>
+						</ul>
 					</div>
 				</div>
 				<hr>
@@ -85,33 +156,6 @@
 					</div>
 				</div>
 				<hr>
-				<h3 class="category-name">Tools</h3>
-				<div class="row">
-					<div class="col-md-5">
-						<ul class="list-unstyled">
-							<li>
-								<span class="ability-title">Sublime text</span>
-								<%= content_tag("span","",class:"fa fa-star") * 5 %> 
-							</li>
-							<li>
-								<span class="ability-title">Github flow</span>
-								<%= content_tag("span","",class:"fa fa-star") * 5 %> 
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-5 col-md-offset-2">
-						<ul class="list-unstyled">
-							<li>
-								<span class="ability-title">Ticketing systems</span>
-								<%= content_tag("span","",class:"fa fa-star") * 4 %> 
-							</li>
-							<li>
-								<span class="ability-title">Trello</span>
-								<%= content_tag("span","",class:"fa fa-star") * 3 %> 
-							</li>
-						</ul>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
