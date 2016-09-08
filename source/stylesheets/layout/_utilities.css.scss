@@ -24,3 +24,14 @@
   justify-content: space-around;
   align-items: center;
 }
+// Unflex for mobile
+#unflex-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  #unflex-mobile {
+    display: inherit;
+  }
+}

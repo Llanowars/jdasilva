@@ -16,16 +16,4 @@ $(document).ready(function() {
     });
   });
 
-
-  function EasyPeasyParallax() {
-  scrollPos = $(this).scrollTop();
-  $('.banner').css({
-    'background-position' : '50% ' + (-scrollPos/4)+"px"
-  });
-  $('.title').css({
-    'margin-top': (scrollPos/4)+"px",
-    'opacity': 1-(scrollPos/250)
-  });
-}
-
 });

@@ -14,10 +14,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 5px;
+  padding: 17px 43px;
   // position: fixed;
 }
 .banner h1 {
-  font-family: Raleway;
   font-size: 63px;
   font-weight: 700;
   letter-spacing: 0.055em;
@@ -36,10 +39,9 @@
 }
 .glyphicon-chevron-down {
   color: #42F2F7;
-  font-size: 30px;
-  text-align: center;
+  font-size: 27px;
   position: absolute;
-  top: 60vh;
+  top: 62vh;
   z-index: 2;
   // @include animation(bounce 2s infinite);
 }
