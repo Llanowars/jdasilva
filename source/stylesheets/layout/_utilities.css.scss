@@ -35,3 +35,9 @@
     display: inherit;
   }
 }
+@media (max-width: 768px) {
+  .banner {
+    background-image: none!important;
+    background-color: #f7f7f7;
+  }
+}
