@@ -28,12 +28,12 @@ $(document).ready(function() {
 
 
   // navbar addClass/removeClass on click
-  $(function() {
-      $('.navbar li a').click(function() {
-         $('.navbar li a').removeClass("active-nav");
-         $(this).addClass('active-nav');
-      });
-   });
+  // $(function() {
+  //     $('.navbar li a').click(function() {
+  //        $('.navbar li a').removeClass("active-nav");
+  //        $(this).addClass('active-nav');
+  //     });
+  //  });
   
   // navbar addClass/removeClass on scroll
   $(window).scroll(function() {
