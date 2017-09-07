@@ -1,3 +1,2 @@
-## My profile page
-
-You will find here some informations about me and what I do
+This is my old profile page project. I moved to that one:
+- https://github.com/juliends/www
